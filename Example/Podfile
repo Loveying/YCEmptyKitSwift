@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCEmptyKitSwift_Example' do
+  pod 'YCEmptyKitSwift', :path => '../'
+
+  target 'YCEmptyKitSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

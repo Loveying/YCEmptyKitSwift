@@ -1,0 +1,16 @@
+PODS:
+  - YCEmptyKitSwift (0.1.0)
+
+DEPENDENCIES:
+  - YCEmptyKitSwift (from `../`)
+
+EXTERNAL SOURCES:
+  YCEmptyKitSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCEmptyKitSwift: b029c4a0b20334aeb66a5ce26fb40fdc17f41f6b
+
+PODFILE CHECKSUM: d73c396d1272a24ed274c5d7370ef9d3aa6d6635
+
+COCOAPODS: 1.9.3
