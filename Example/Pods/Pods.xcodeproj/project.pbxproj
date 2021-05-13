@@ -44,19 +44,19 @@
 		02CF9419551A8AD5DFFAEF292316849D /* Pods-YCEmptyKitSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCEmptyKitSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		09F2F55A3D8B430958FE17D66921688F /* Pods-YCEmptyKitSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCEmptyKitSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		0BC1530423D3007F522FA640D8D0EFE1 /* Pods-YCEmptyKitSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCEmptyKitSwift_Example-Info.plist"; sourceTree = "<group>"; };
-		1F0423D4FFF25589771703516C63F0DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1F0423D4FFF25589771703516C63F0DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		26FCA8BD53C0B0711BD3A14B9FAD6810 /* Pods-YCEmptyKitSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCEmptyKitSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		27558FCAEA9D927F20764AE6BB2A5FFD /* YCEmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCEmptyView.swift; path = YCEmptyKitSwift/Classes/YCEmptyView.swift; sourceTree = "<group>"; };
 		2D065349DAC478BAF6F58C8A5146314A /* YCEmptyKitSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YCEmptyKitSwift-dummy.m"; sourceTree = "<group>"; };
 		2D80F1F4D20F6327053FD423EA956BBB /* YCEmptyDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCEmptyDelegate.swift; path = YCEmptyKitSwift/Classes/YCEmptyDelegate.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3C6361B91E6EA33813CCFDE2FB6250AE /* Pods-YCEmptyKitSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCEmptyKitSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E84682FF98287C87AD8521EDB5B6334 /* Pods_YCEmptyKitSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YCEmptyKitSwift_Example.framework; path = "Pods-YCEmptyKitSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E84682FF98287C87AD8521EDB5B6334 /* Pods_YCEmptyKitSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCEmptyKitSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D059361324316170A14B8EB883F73 /* Pods-YCEmptyKitSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCEmptyKitSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		46064051561F11280DE0938DF18DA316 /* YCEmptyKitSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YCEmptyKitSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46064051561F11280DE0938DF18DA316 /* YCEmptyKitSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YCEmptyKitSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47403F4F8626E07AF3411A9FE76DFCA6 /* YCEmptyKitSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCEmptyKitSwift-prefix.pch"; sourceTree = "<group>"; };
 		4ADC4A154A62EF306ACAC8651AF384EA /* YCEmptyKitSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YCEmptyKitSwift-Info.plist"; sourceTree = "<group>"; };
-		55540B7B809C7FB6AF830ACDB1BCF54C /* Pods_YCEmptyKitSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YCEmptyKitSwift_Tests.framework; path = "Pods-YCEmptyKitSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55540B7B809C7FB6AF830ACDB1BCF54C /* Pods_YCEmptyKitSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCEmptyKitSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F2356CED7805BA4AD2C1A88BDC6964 /* YCEmptyKitSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YCEmptyKitSwift.release.xcconfig; sourceTree = "<group>"; };
 		5EA5FCCAD4404CFAAE638E514D310175 /* YCEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YCEmpty.swift; path = YCEmptyKitSwift/Classes/YCEmpty.swift; sourceTree = "<group>"; };
 		612E65841A18F9E08DB020DCA5718152 /* YCEmptyKitSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YCEmptyKitSwift.debug.xcconfig; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		710F4F62BA974CEB074328838B3DE06D /* YCEmptyKitSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YCEmptyKitSwift.modulemap; sourceTree = "<group>"; };
 		7543F2CB2C42CB1E535D5206181224F2 /* Pods-YCEmptyKitSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YCEmptyKitSwift_Example.modulemap"; sourceTree = "<group>"; };
 		8E19547480067C2940C66966E47EF2BC /* Pods-YCEmptyKitSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCEmptyKitSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC918A6C58052DC7D58A5A1D95B85554 /* YCEmpty+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "YCEmpty+Extension.swift"; path = "YCEmptyKitSwift/Classes/YCEmpty+Extension.swift"; sourceTree = "<group>"; };
 		AD761084F95ECDCD834F689A6CE02BC3 /* Pods-YCEmptyKitSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCEmptyKitSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		B433869AC49FC7C2056DEFC07149A2B9 /* Pods-YCEmptyKitSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCEmptyKitSwift_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -75,9 +75,9 @@
 		E10880DA436A70305F6653E3FDFE6CC0 /* Pods-YCEmptyKitSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCEmptyKitSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1D3C3E4B8400AF9A3018775BAC04847 /* Pods-YCEmptyKitSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCEmptyKitSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		E261D3993EFED786ADCA5541D022E1B5 /* Pods-YCEmptyKitSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCEmptyKitSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E45D6979AA18DAA8676AE6D75188A324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E45D6979AA18DAA8676AE6D75188A324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC5F59BBAB3A988D381503DDA2F734E1 /* YCEmptyKitSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCEmptyKitSwift-umbrella.h"; sourceTree = "<group>"; };
-		FF2C36DA6489196ED8A3D6BB76EA0ECC /* YCEmptyKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YCEmptyKitSwift.framework; path = YCEmptyKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2C36DA6489196ED8A3D6BB76EA0ECC /* YCEmptyKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YCEmptyKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -502,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift.modulemap";
 				PRODUCT_MODULE_NAME = YCEmptyKitSwift;
@@ -640,8 +640,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -731,7 +730,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YCEmptyKitSwift/YCEmptyKitSwift.modulemap";
 				PRODUCT_MODULE_NAME = YCEmptyKitSwift;

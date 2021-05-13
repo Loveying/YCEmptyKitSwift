@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - YCEmptyDelegate
-public protocol YCEmptyDelegate: class {
+public protocol YCEmptyDelegate: AnyObject {
     
     /// 设置空页面展示的时候是否显示淡入动画（默认true)
     /// - Parameter view: 空页面的父视图

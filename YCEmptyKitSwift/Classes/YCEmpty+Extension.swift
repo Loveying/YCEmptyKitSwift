@@ -33,19 +33,20 @@ fileprivate extension UIScrollView {
         guard ycEmpty.setupEmptyView(withItemsCount: ycEmpty.itemsCount) else {
             return
         }
-        /// events
+        /// 点击按钮事件
         ycEmpty.emptyView?.didTappedButton = { [weak self] button in
-            guard let strongSelf = self else {
+            guard let `self` = self else {
                 return
             }
-            strongSelf.ycEmpty.delegate?.emptyButton(button, tappedIn: strongSelf)
+            self.ycEmpty.delegate?.emptyButton(button, tappedIn: self)
         }
+        /// 点击视图事件
         ycEmpty.emptyView?.didTappedEmptyView = { [weak self] view in
-            guard let strongSelf = self, let delegate = strongSelf.ycEmpty.delegate else {
+            guard let `self` = self, let delegate = self.ycEmpty.delegate else {
                 return
             }
             if delegate.emptyShouldEnableTapGesture(in: view) {
-                delegate.emptyView(view, tappedIn: strongSelf)
+                delegate.emptyView(view, tappedIn: self)
             }
         }
     }
@@ -203,7 +204,9 @@ public extension YCEmpty where Base: UIScrollView {
         }
         
         if view.superview == nil {
-            if base is UITableView && base is UICollectionView && base.subviews.count > 1 {
+            if base is UITableView,
+               base is UICollectionView,
+               base.subviews.count > 1 {
                 base.insertSubview(view, at: 0)
             } else {
                 base.addSubview(view)

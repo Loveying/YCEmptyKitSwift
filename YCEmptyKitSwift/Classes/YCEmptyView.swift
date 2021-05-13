@@ -18,7 +18,7 @@ final class YCEmptyView: UIView {
                 return
             }
             customView.translatesAutoresizingMaskIntoConstraints = false
-            self.contentView.addSubview(customView)
+            contentView.addSubview(customView)
         }
     }
     
@@ -53,7 +53,7 @@ final class YCEmptyView: UIView {
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        guard self.frame != CGRect.zero, autoInset else { return }
+        guard frame != CGRect.zero, autoInset else { return }
         let inset: UIEdgeInsets
         if let tableView = superview as? UIScrollView {
             inset = tableView.contentInset
@@ -72,7 +72,7 @@ final class YCEmptyView: UIView {
     /// Override
     public override func didMoveToSuperview() {
         guard fadeInOnDisplay == true else {
-            self.contentView.alpha = 1
+            contentView.alpha = 1
             return
         }
         UIView.animate(withDuration: 0.25, animations: {
@@ -101,7 +101,7 @@ internal extension YCEmptyView {
         self.contentView.subviews.forEach {
             $0.removeFromSuperview()
         }
-        self.removeAllEmptyConstraints()
+        removeAllEmptyConstraints()
         setupContentSubviews()
     }
     
@@ -111,8 +111,8 @@ internal extension YCEmptyView {
 private extension YCEmptyView {
     
     func removeAllEmptyConstraints() {
-        self.removeConstraints(self.constraints)
-        contentView.removeConstraints(self.contentView.constraints)
+        removeConstraints(constraints)
+        contentView.removeConstraints(contentView.constraints)
     }
     
 }
@@ -190,9 +190,9 @@ internal extension YCEmptyView {
         let metrics = ["padding": horizontalSpace]
         var views:[String: UIView] = [:]
         var names:[String] = []
-        self.addEquallyRelatedConstraint(with: contentView, attribute: .centerX)
+        addEquallyRelatedConstraint(with: contentView, attribute: .centerX)
         let centerY = self.addEquallyRelatedConstraint(with: contentView, attribute: .centerY)
-        self.addConstraints(withVisualFormat: "|[contentView]|", metrics: nil, views: ["contentView": contentView])
+        addConstraints(withVisualFormat: "|[contentView]|", metrics: nil, views: ["contentView": contentView])
         
         /// 当自定义竖直偏移量可用时，我们调整垂直约束
         if verticalOffset != 0 {
@@ -207,7 +207,7 @@ internal extension YCEmptyView {
         }
         
         /// 设置图片的水平约束
-        if self.canShowImage {
+        if canShowImage {
             contentView.addSubview(imageView)
             let name = "imageView"
             names.append(name)
@@ -215,7 +215,7 @@ internal extension YCEmptyView {
             contentView.addEquallyRelatedConstraint(with: imageView, attribute: .centerX)
         }
         /// 设置标题的水平约束
-        if self.canShowTitle {
+        if canShowTitle {
             contentView.addSubview(titleLabel)
             let name = "titleLabel"
             names.append(name)
@@ -225,7 +225,7 @@ internal extension YCEmptyView {
         }
         
         /// 设置描述的水平约束
-        if self.canShowDetail {
+        if canShowDetail {
             contentView.addSubview(detailLabel)
             let name = "detailLabel"
             names.append(name)
@@ -235,7 +235,7 @@ internal extension YCEmptyView {
         }
         
         /// 设置按钮的水平约束
-        if self.canShowButton {
+        if canShowButton {
             contentView.addSubview(button)
             let name = "button"
             names.append(name)
@@ -284,8 +284,8 @@ private extension YCEmptyView {
     }
     
     var canShowButton: Bool {
-        if self.button.attributedTitle(for: .normal)?.string.lengthOfBytes(using: .unicode) ?? 0 > 0 ||
-            self.button.image(for: .normal) != nil {
+        if button.attributedTitle(for: .normal)?.string.lengthOfBytes(using: .unicode) ?? 0 > 0 ||
+            button.image(for: .normal) != nil {
             return true
         }
         return false
@@ -315,13 +315,13 @@ extension UIView {
     func addConstraints(withVisualFormat format: String, metrics: [String : Any]?, views: [String : Any]) {
         let noLayoutOptions = NSLayoutConstraint.FormatOptions(rawValue: 0)
         let constraints = NSLayoutConstraint.constraints(withVisualFormat: format, options: noLayoutOptions, metrics: metrics, views: views)
-        self.addConstraints(constraints)
+        addConstraints(constraints)
     }
     
     @discardableResult
     func addEquallyRelatedConstraint(with view: UIView, attribute: NSLayoutConstraint.Attribute) -> NSLayoutConstraint {
         let constraint = NSLayoutConstraint(item: view, attribute: attribute, relatedBy: .equal, toItem: self, attribute: attribute, multiplier: 1, constant: 0)
-        self.addConstraint(constraint)
+        addConstraint(constraint)
         return constraint
     }
 }

@@ -9,7 +9,7 @@
 import UIKit
 
 // MARK: - YCEmptyDataSource
-public protocol YCEmptyDataSource: class {
+public protocol YCEmptyDataSource: AnyObject {
     
     /// 设置要忽略Section数组，默认为nil
     /// - Parameter view: 空页面的父视图
@@ -120,16 +120,19 @@ public extension YCEmptyDataSource {
 
 // MARK: - UIViewController
 public extension YCEmptyDataSource where Self: UIViewController {
+    
     func verticalOffsetForEmpty(in view: UIView) -> CGFloat {
         if let nav = self.navigationController, !nav.isNavigationBarHidden, nav.navigationBar.isTranslucent {
             return -nav.navigationBar.frame.maxY / 2
         }
         return 0
     }
+    
 }
 
 // MARK: - UITableViewController
 public extension YCEmptyDataSource where Self: UITableViewController {
+    
     func verticalOffsetForEmpty(in view: UIView) -> CGFloat {
         var offset: CGFloat = 0
         if let nav = self.navigationController, !nav.isNavigationBarHidden, nav.navigationBar.isTranslucent {
@@ -140,4 +143,5 @@ public extension YCEmptyDataSource where Self: UITableViewController {
         }
         return offset
     }
+    
 }
